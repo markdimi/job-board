@@ -7,6 +7,7 @@
  - PostgreSQL for the required database.
  - Bootstrap and JavaScript for the frontend.
  - Docker & docker-compose for setting up the development environment (optional).
+    - You can create the backend enviornment using the `Dockerfile` and `docker-compose.yml` file.
 
 ### Setting up the environment
 
@@ -17,19 +18,19 @@
 - PostgreSQL with a database, user and its password, all set to 'postgres' (as it’s defined in the settings.py file in the DATABASES section).
     - Otherwise if your database setup is different you’ll need to change the settings accordingly. 
 - Then you can clone this project. The django project's name is `jobs_coard` and `core` is the name of the app.
-- Now you can run the migrations for the 'Searches' model to take place. 
-    - 'python manage.py makemigrations core'
-    - 'python manage.py migrate'
+- Now you can run the migrations for the `Searches` model to take place. 
+    - `python manage.py makemigrations core`
+    - `python manage.py migrate`
 - (Optional) You can also create a superuser to access Django's admin where you could observe the `Searches` model.
     - `python manage.py createsuperuser`
 - Lastly you can run django server in port '9898' 
-    - 'python manage.py runserver 0.0.0.0:9898'
+    - `python manage.py runserver 0.0.0.0:9898`
 
 #### For the frontend
 
 - The frontend is an `html` file inside the `Simple frontend` folder.
 - You will need an http server for serving the file in port '8000'
-    - I used Python's Simple HTTP Server: 'python -m http.server'
+    - I used Python's Simple HTTP Server: `python -m http.server`
 
 ### Execution
 
