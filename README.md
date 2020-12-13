@@ -6,7 +6,7 @@
  - PostgreSQL for the required database.
  - Bootstrap and JavaScript for the frontend.
  - Docker & docker-compose for setting up the development environment (optional).
-    - You can create the backend enviornment using the `Dockerfile` and `docker-compose.yml` file.
+    - You can create the backend enviornment using the `Dockerfile` and the `docker-compose.yml` file.
 
 ### Setting up the environment
 
