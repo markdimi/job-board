@@ -1,5 +1,4 @@
-# Take home project
-## job board
+## Take home project : job board
 
 ### For this task the following technologies where used
 
